@@ -9,9 +9,6 @@ function App() {
     <div className="app">
       <Nav/>
       <Banner />
-      <h1>
-        Hey Abhay let's build netflix clone frontend today
-      </h1>
       <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true}/>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
